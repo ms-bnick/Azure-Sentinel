@@ -30,3 +30,4 @@ AzureActivity
 | distinct *
 | extend AccountCustomEntity = Caller
 | extend IPCustomEntity = CallerIpAddress
+| extend timestamp = TimeGenerated
